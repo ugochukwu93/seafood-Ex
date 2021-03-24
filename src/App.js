@@ -6,6 +6,7 @@ import StoreHome from './pages/storehome/storehome.component';
 import Header from './components/header/header.component';
 import Signin from './pages/sign-in/sign-in.component'
 import SignUp from './pages/sign-up/sign-up.component';
+import DashboardPage from './pages/dashboard-page/dashboard-page.component';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Route  path = '/stallion' component={StoreHome}/>
       <Route  path = '/signin' component={Signin}/>
       <Route  path = '/signup' component={SignUp}/>
+      <Route  path = '/dashboard' component={DashboardPage}/>
       </Switch>
     </div>
   );    

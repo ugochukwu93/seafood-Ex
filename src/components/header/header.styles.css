@@ -1,8 +1,10 @@
 .nav-item {
     font-weight: bold;
+    color: black;
 }
 .nav-item:hover{
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid cornflowerblue;
+    color: cornflowerblue;
 }
 I {
     font-size: 18px;

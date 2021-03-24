@@ -3,6 +3,7 @@ import './admiral.styles.css'
 
 
 const Admiral = ({ title, imageUrl }) => (
+   
     <div class="card" style={{ width: "18rem", height:'25rem',marginTop: '5rem' }}>
       <img src={imageUrl} class="card-img-top" alt="..." />
   <div class="card-body">

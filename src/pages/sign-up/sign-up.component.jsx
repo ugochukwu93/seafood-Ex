@@ -1,7 +1,13 @@
 import React from 'react';
 import './sign-up.styles.css';
+import WholeSellerSignUp from '../../components/wholeSeller-signUp/wholeSeller-signUp.component';
 
 class SignUp extends React.Component {
+    clickHandler() {
+       console.log('select')
+     
+       
+    }
     constructor() {
         super();
 
@@ -27,49 +33,12 @@ class SignUp extends React.Component {
                             <input type="password" name='pwd' placeholder='password...' required onChange={this.handleChange}/>
                         <label>Confirm Password</label>
                             <input type="password" name='confirmPassword' placeholder='password...' required onChange={this.handleChange}/>
+                            <WholeSellerSignUp/>
                         <button className="btn1" onSubmit={this.handleSubmit}>SIGN IN</button>
                     </form>
 
 
-                {/* <form className='sign-up-form' onSubmit={this.handleSubmit}>
-                <label>NAME</label>
-                    <input 
-                        type="text"
-                        name="displayName"
-                        // value={displayName}
-                        onChange={this.handleChange}
-                        required
-                        />
-                        
-                        <label>EMAIL</label>
-                    <input 
-                        type="email"
-                        name="email"
-                        // value={email}
-                        onChange={this.handleChange}
-                        required
-                        />
-                    
-                    <label>PASSWORD</label>
-                    <input 
-                        type="password"
-                        name="password"
-                        // value={password}
-                        onChange={this.handleChange}
-                        required
-                        />
-                        
-                     <label>CONFIRM PASSWORD</label>
-                    <input 
-                        type="password"
-                        name="confirmPassword"
-                        // value={confirmPassword}
-                        onChange={this.handleChange}
-                        required
-                        />
-                        
-                    <button type='submit'>SIGN UP</button>
-                </form> */}
+                
              </div>
         )
         

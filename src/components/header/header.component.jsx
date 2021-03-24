@@ -16,7 +16,7 @@ const Header = () => (
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-        <Link className='nav-link  text-primary' to='/stallion'>
+        <Link className='nav-link  ' to='/stallion'>
                STALLION
         </Link>
         </li>
@@ -61,43 +61,6 @@ const Header = () => (
     </div>
   </div>
 </nav>
-    // <div className='nav'>
-    //     <div className='img-container'>
-    //         <Link className='logo-container' to='/'>
-    //                 <img src={Logo} alt="" width='100' height='100'/>
-    //         </Link>
-    //    </div>
-    //   <div className='option-container'>
-    //         <Link className='option' to='/stallion'>
-    //             STALLION
-    //         </Link>
-    //   </div>
-    // <div>
-    //     <Link className='option' to='/shop'>
-    //         SHARON
-    //     </Link>
-    // </div>
-    // <div>
-    //     <Link className='option' to='/shop'>
-    //         MAGULF
-    //     </Link>
-    // </div>
-    // <div>
-    //     <Link className='option' to='/shop'>
-    //         ADMIRAL
-    //     </Link>
-    // </div>
-    // <div>
-    //     <Link className='option' to='/shop'>
-    //         JOMA
-    //     </Link>
-    // </div>
-    // <div>
-    //     <Link className='option' to='/shop'>
-    //         WINDEK
-    //     </Link>
-    // </div>
-       
-    // </div>
+   
 )
 export default Header

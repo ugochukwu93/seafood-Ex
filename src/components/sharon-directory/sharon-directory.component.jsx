@@ -31,6 +31,7 @@ class Sharondirectory extends React.Component {
     render() {
         return(
         <div className='sharon-directory'>
+            
             {
                 this.state.sections.map(({title, imageUrl, id}) => (
                     <Sharon key={id} title={title} imageUrl={imageUrl} />

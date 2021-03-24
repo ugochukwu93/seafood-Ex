@@ -24,6 +24,7 @@ const Homepage = () => (
                  <Windekdirectory/>
                 <Seafooddirectory/>
                 <Jomadirectory/>
+                
                 {/* <StallionStoreDirectory/> */}
             </div>
             
