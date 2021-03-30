@@ -1,6 +1,13 @@
 .check {
     display: flex;
+    
 }
 .check-input {
-    font-size: 7px;
+    width: 15px;
+    height: 15px;
+    margin-top: 13px;
+    padding-right: 20px;
+}
+.check label {
+    margin-left: 0%;
 }

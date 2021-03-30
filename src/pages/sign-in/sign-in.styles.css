@@ -1,31 +1,33 @@
 
 
 
-input {
+  .signin input {
     display: block;
-    margin-left: 10%;
+    margin-left: 35%;
     height: 50px;
     width: 350px;
     border-color: cornflowerblue;
-}   
-label {
-    margin-right: 60%;
-    padding: 20px;
+}     
+ .signin label {
+    margin-left:34%; 
+    padding: 10px;
     font-size: 15px;
-}
-.signin {
+} 
+/* .signin {
     color: cornflowerblue;
     max-width: 35%;
     height: 450px;
-    margin-left: 30%;
+    margin-left: 20%;
     margin-top: 30px;
-} 
-.btn1 {
-    margin-right: 65%;
+} */
+.btn2 {
+    margin-left: 35%;
     border: none;
     padding: 10px;
     color: cornflowerblue;
     width: 350px;
-    margin-left: 10%;
-    margin-top: 40px;
-}
+    margin-top: 30px;
+} 
+.signin h5,h2 {
+    margin-left: 35%;
+} 

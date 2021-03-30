@@ -23,13 +23,13 @@ class WholeSellerSignUp extends React.Component {
             <div>
                 <div className='check'>
                 <input className='check-input' type="checkbox" onClick = {()=>this.operation()}/>
-                <label>I am a wholeSeller</label>
+                <label >I am a Merchant</label>
                 </div>
                 {
                     this.state.show?
                     <div>
-                    <input type="text" placeholder="Your business Name"/>
-                </div>
+                        <input type="text" placeholder="Your business Name"/>
+                    </div>
                 :null
                 }
                 

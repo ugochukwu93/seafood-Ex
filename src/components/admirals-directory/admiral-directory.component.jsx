@@ -32,6 +32,7 @@ class Admiraldirectory extends React.Component {
         return(
         <div className='admiral-directory'>
             
+            
             {
                 this.state.sections.map(({title, imageUrl, id}) => (
                     <Admiral key={id} title={title} imageUrl={imageUrl} />
