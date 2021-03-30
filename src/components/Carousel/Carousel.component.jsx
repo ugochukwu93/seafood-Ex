@@ -2,6 +2,7 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import './Carousel.styles.css';
 // import fish200 from './images/200.gif'
 // import giphy from './images/giphy.gif'
 // import fishgif from './images/fish.gif'
@@ -16,31 +17,21 @@ class Carousel extends React.Component {
     return (
        <div className='gif'>
 
-    <OwlCarousel className="owl-theme" loop margin={10} nav>
+    <OwlCarousel className="owl-theme" loop margin={20} autoplay nav>
         <div class="item">
-          <img src={chuttersnap} alt={'ime'}  style={{
-                width:'400px', height:'580px'
-          }}/>
+          <img src={chuttersnap} alt={'ime'} />
         </div>
         <div class="item">
-          <img src={danielimg} alt="ime" style={{
-                width:'400px', height:'580px'
-          }}/>
+          <img src={danielimg} alt="ime" />
         </div>
         <div class="item">
-          <img src={karl} alt={'ime'} style={{
-                width:'400px', height:'580px'
-          }}/>
+          <img src={karl} alt={'ime'} />
         </div>
         <div class="item">
-          <img src={martinimg} alt={'ime'} style={{
-                width:'400px', height:'580px'
-          }}/>
+          <img src={martinimg} alt={'ime'} />
         </div>
         <div class="item">
-          <img src={tapan} alt={'ime'} style={{
-                width:'400px', height:'580px'
-          }}/>
+          <img src={tapan} alt={'ime'} />
         </div>
      </OwlCarousel> 
         </div>
