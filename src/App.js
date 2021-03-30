@@ -4,9 +4,9 @@ import './App.css';
 import Homepage from './pages/homepage/homepage.component'
 import StoreHome from './pages/storehome/storehome.component';
 import Header from './components/header/header.component';
-import Signin from './pages/sign-in/sign-in.component'
-import SignUp from './pages/sign-up/sign-up.component';
 import DashboardPage from './pages/dashboard-page/dashboard-page.component';
+import SignUp from './pages/sign-in-sign-up/sign-in-sign-up.pages'
+
 
 
 function App() {
@@ -16,9 +16,8 @@ function App() {
       <Switch>
       <Route exact path = '/' component={Homepage}/>
       <Route  path = '/stallion' component={StoreHome}/>
-      <Route  path = '/signin' component={Signin}/>
-      <Route  path = '/signup' component={SignUp}/>
       <Route  path = '/dashboard' component={DashboardPage}/>
+      <Route path = '/register' component={SignUp}/>
       </Switch>
     </div>
   );    

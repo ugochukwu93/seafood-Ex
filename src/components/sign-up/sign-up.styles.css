@@ -1,0 +1,22 @@
+:root {
+ --primary-color: #1d3557;
+ --error-color: #e63946;
+ --bg-color: #f1faee;
+ --text-color: #293241;
+}
+
+
+.sign-up .input-error .MuiOutlinedInput-root > fieldset {
+	 border-color: var(--error-color)
+}
+
+.sign-up .error {
+	 color: #e63946;
+	 font-size: 1rem;
+	 margin-top: 0.3rem;
+}
+ 
+ .sign-up .disabled-btn {
+    cursor: not-allowed;
+    color: var(--primary-color);
+}
