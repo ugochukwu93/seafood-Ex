@@ -54,7 +54,7 @@ const Header = () => (
       <form class="d-flex" >
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button class="btn btn-outline-success" type="submit">Search</button>
-        <Link className='nav-link' to='/signin'>
+        <Link className='nav-link' to='/register'>
         <i class="fas fa-user-alt"></i>
         </Link>
       </form>
